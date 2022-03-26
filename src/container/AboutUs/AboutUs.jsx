@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { images } from "../../constants";
-import "./AboutUs.css";
+import { images } from '../../constants';
+import './AboutUs.css';
 
 const AboutUs = () => (
 	<div className='app__aboutus app__bg flex__center section__padding id="about"'>
@@ -12,13 +12,19 @@ const AboutUs = () => (
 		<div className="app__aboutus-content flex__center">
 			<div className="app__aboutus-content_about">
 				<h1 className="headtext__cormorant">About Us</h1>
-				<img src={images.spoon} alt="about_spoon" className="spoon_img"></img>
+				<img
+					src={images.spoon}
+					alt="about_spoon"
+					className="spoon_img"
+				></img>
 				<p className="p__opensans">
-					Some more text that can be changed to the owner's pleasing.Some more text that
-					can be changed to the owner's pleasing.Some more text that can be changed to the
-					owner's pleasing.Some more text that can be changed to the owner's pleasing.Some
-					more text that can be changed to the owner's pleasing.Some more text that can be
-					changed to the owner's pleasing.
+					Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.
 				</p>
 				<button type="button" className="custom__button">
 					Know More
@@ -31,13 +37,19 @@ const AboutUs = () => (
 
 			<div className="app__aboutus-content_history">
 				<h1 className="headtext__cormorant">Our History</h1>
-				<img src={images.spoon} alt="about_spoon" className="spoon_img"></img>
+				<img
+					src={images.spoon}
+					alt="about_spoon"
+					className="spoon_img"
+				></img>
 				<p className="p__opensans">
-					Some more text that can be changed to the owner's pleasing.Some more text that
-					can be changed to the owner's pleasing.Some more text that can be changed to the
-					owner's pleasing.Some more text that can be changed to the owner's pleasing.Some
-					more text that can be changed to the owner's pleasing.Some more text that can be
-					changed to the owner's pleasing.
+					Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.Some more text that can be changed to the owner's
+					pleasing.
 				</p>
 				<button type="button" className="custom__button">
 					Know More

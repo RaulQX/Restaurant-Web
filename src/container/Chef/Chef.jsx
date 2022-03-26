@@ -1,7 +1,7 @@
-import React from "react";
-import { images } from "../../constants";
-import { SubHeading } from "../../components";
-import "./Chef.css";
+import React from 'react';
+import { images } from '../../constants';
+import { SubHeading } from '../../components';
+import './Chef.css';
 
 const Chef = () => (
 	<div className="app__bg app__wrapper section__padding">
@@ -16,14 +16,15 @@ const Chef = () => (
 				<div className="app__chef-content_quote">
 					<img src={images.quote} alt="quote"></img>
 					<p className="p__opensans">
-						Chef says what the chef wants to say because the chef says that he says what
-						he wants to say yes lorem ipsum
+						Chef says what the chef wants to say because the chef
+						says that he says what he wants to say yes lorem ipsum
 					</p>
 				</div>
 				<p className="p__opensans">
-					e chef says that he says what he wants to say yes lorem ipsume chef says that he
-					says what he wants to say yes lorem ipsume chef says that he says what he wants
-					to say yes lorem ipsume chef says that he says what he wants to say yes lorem
+					e chef says that he says what he wants to say yes lorem
+					ipsume chef says that he says what he wants to say yes lorem
+					ipsume chef says that he says what he wants to say yes lorem
+					ipsume chef says that he says what he wants to say yes lorem
 					ipsum
 				</p>
 			</div>

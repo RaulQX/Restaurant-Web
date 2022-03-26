@@ -1,8 +1,8 @@
-import React from "react";
-import { BsPlayFill } from "react-icons/bs";
-import "./Intro.css";
-import { meal } from "../../constants";
-import { useState } from "react";
+import React from 'react';
+import { BsPlayFill } from 'react-icons/bs';
+import './Intro.css';
+import { meal } from '../../constants';
+import { useState } from 'react';
 
 const Intro = () => {
 	const [playVideo, setPlayVideo] = useState(false);
@@ -20,8 +20,18 @@ const Intro = () => {
 
 	return (
 		<div className="app__video">
-			<video ref={vidRef} src={meal} type="video/mp4" loop controls={false} muted />
-			<div className="app__video-overlay flex__center" onClick={handleVideo}>
+			<video
+				ref={vidRef}
+				src={meal}
+				type="video/mp4"
+				loop
+				controls={false}
+				muted
+			/>
+			<div
+				className="app__video-overlay flex__center"
+				onClick={handleVideo}
+			>
 				{!playVideo && (
 					<div className="app__video-overlay_circle flex__center">
 						<BsPlayFill color="#fff" fontSize={30} />

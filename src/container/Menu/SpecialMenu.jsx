@@ -1,7 +1,7 @@
-import React from "react";
-import { images, data } from "../../constants";
-import { SubHeading, MenuItem } from "../../components";
-import "./SpecialMenu.css";
+import React from 'react';
+import { images, data } from '../../constants';
+import { SubHeading, MenuItem } from '../../components';
+import './SpecialMenu.css';
 
 const SpecialMenu = () => (
 	<div className="app__specialMenu flex__center section__padding" id="menu">
@@ -43,7 +43,7 @@ const SpecialMenu = () => (
 			</div>
 		</div>
 
-		<div style={{ marginTop: "15px" }}>
+		<div style={{ marginTop: '15px' }}>
 			<button type="button" className="custom__button">
 				View More
 			</button>
